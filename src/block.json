@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "create-block/data-charts",
+	"version": "0.1.0",
+	"title": "Data Charts",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Example static block scaffolded with Create Block tool.",
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		"head": {
+			"type": "array",
+			"default": []
+		},
+		"body": {
+			"type": "array",
+			"default": []	
+		}
+	},
+	"textdomain": "data-charts",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

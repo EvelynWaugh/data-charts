@@ -1,0 +1,55 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-data-charts {
+	border: 1px dotted #f00;
+}
+
+.charts-table {
+
+}
+.chart-table-row {
+	
+    margin-bottom: 5px;
+    width: 100%;
+   
+}
+.chart-table-row > div {
+	background: aliceblue;
+	width: 15%;
+	display: inline-block;
+	margin-right: 10px;
+}
+.chart-table-row__head > div {
+	background: darkcyan;
+	color: #fff;
+}
+.chart-table-row__3 {
+	
+   
+}
+.chart-table-row__4 {
+	
+    
+}
+
+.chart-table-row__5 {
+	
+    
+}
+.chart-table-row__6 {
+	
+    
+}
+.charts-edit-row {
+	visibility: hidden;
+	opacity: 0;
+	transition: all 0.3s ease;
+}
+.charts-edit-row.active {
+	visibility: visible;
+	opacity: 1;
+}
